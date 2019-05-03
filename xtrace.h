@@ -49,7 +49,7 @@ const unsigned int TRC_L_DEB  = 7;
 
 #define TRC_MASK TRC_M_ALL
 //#define TRC_MASK TRC_G_EVENT
-#define TRC_LEVEL TRC_L_WAR
+#define TRC_LEVEL TRC_L_INF
 
 
 inline int Trace(int const LineNumber, char const *File, const char* GroupName,  const char* SeverityName, const char *Format, ...) {
